@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* colors variables */
+:root {
+    --background-color: #010311;
+    --primary-color: #F9B17A;
+    --secondary-color: #676F9D;
+    --tertiary-color: #1F212C;
+    --text-color: white;
+    --text-secondary-color: #81807E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* ========== HEADER (global) ========== */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(10, 10, 26, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+header .primary-button,
+header .secondary-button {
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .primary-button {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+header .primary-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .secondary-button {
+    background: transparent;
+    color: #fff;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+}
+
+header .secondary-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cart-icon {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+header .cart-icon:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Nav groups: left (Home, Products) and right (cart, Contact) */
+header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+header .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+header .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+
+
+
+
+
+
+
+footer {
+    color: white;
+}
+
+.form {
+    background-color: rgb(26, 65, 52);
+}
+
+.social_media {
+    background-color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social {
+    width: 2.6vw;
+    height: 5.7vh;
+    object-fit: cover;
+}
