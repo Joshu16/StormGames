@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* colores variables */
+:root {
+    --background-color: #010311;
+    --primary-color: #F9B17A;
+    --secondary-color: #676F9D;
+    --tertiary-color: #1F212C;
+    --text-color: white;
+    --text-secondary-color: #81807E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/*  HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: rgba(10, 10, 26, 0.85);
+    backdrop-filter: blur(8px);
+}
+
+header .primary-button,
+header .secondary-button {
+    border-radius: 8px;
+    padding: 0.5rem 1.25rem;
+    font-weight: 600;
+    text-transform: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .primary-button {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+header .primary-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .secondary-button {
+    background: transparent;
+    color: #fff;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+}
+
+header .secondary-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cart-icon {
+    color: #fff;
+    font-size: 1.25rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+header .cart-icon:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+header .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+header .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+/* CART */
+.cart-wrap {
+    position: relative;
+}
+
+.cart-panel {
+    position: fixed;
+    top: 4.5rem;
+    right: -320px;
+    width: 300px;
+    max-height: calc(100vh - 5rem);
+    background: var(--tertiary-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.25rem;
+    z-index: 99;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: right 0.25s ease, opacity 0.2s ease, visibility 0.2s ease;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-wrap:hover .cart-panel {
+    right: 1rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.cart-panel-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.cart-panel-divider {
+    height: 1px;
+    background: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.cart-panel-item {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.cart-item-placeholder {
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-item-price {
+    font-weight: 600;
+}
+
+.cart-item-remove {
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.cart-item-remove:hover {
+    text-decoration: underline;
+}
+
+.cart-panel-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.cart-panel-buy {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
