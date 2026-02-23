@@ -331,7 +331,7 @@ footer {
     color: #000;
 }
 
-/*  RESPONSIVE - Celular */
+/*  RESPONSIVE */
 @media (max-width: 768px) {
     #hero-section {
         padding: 0 1rem;
@@ -471,19 +471,5 @@ footer {
 
     .values-item:last-child {
         border-bottom: none;
-    }
-
-    footer {
-        height: auto;
-        padding: 2rem 1rem;
-    }
-
-    .rights_sg {
-        padding: 0 1.5rem;
-    }
-
-    .rights2_sg {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 }

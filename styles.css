@@ -211,7 +211,7 @@ header .nav-right {
     cursor: pointer;
 }
 
-/*  HEADER - Responsive celular */
+/*  HEADER */
 @media (max-width: 768px) {
     header {
         padding: 0.6rem 1rem;
@@ -253,6 +253,20 @@ header .nav-right {
 
     .cart-wrap:hover .cart-panel {
         right: 1rem;
+    }
+
+    footer {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .rights_sg {
+        padding: 0 1.5rem;
+    }
+
+    .rights2_sg {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
