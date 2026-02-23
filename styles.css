@@ -211,3 +211,48 @@ header .nav-right {
     cursor: pointer;
 }
 
+/*  HEADER - Responsive celular */
+@media (max-width: 768px) {
+    header {
+        padding: 0.6rem 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    header .nav-left {
+        order: 1;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header .nav-right {
+        order: 2;
+        width: 100%;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    header .primary-button,
+    header .secondary-button {
+        padding: 0.4rem 0.85rem;
+        font-size: 0.85rem;
+    }
+
+    header .cart-icon {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    .cart-panel {
+        width: calc(100vw - 2rem);
+        max-width: 300px;
+        right: -100%;
+    }
+
+    .cart-wrap:hover .cart-panel {
+        right: 1rem;
+    }
+}
+

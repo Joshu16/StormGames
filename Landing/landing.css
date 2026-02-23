@@ -331,4 +331,159 @@ footer {
     color: #000;
 }
 
-/* ====== FIN DEL FOOTER ====== */
+/*  RESPONSIVE - Celular */
+@media (max-width: 768px) {
+    #hero-section {
+        padding: 0 1rem;
+        padding-top: 7rem;
+        padding-bottom: 1rem;
+        min-height: 60vh;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.25rem;
+    }
+
+    .hero-text h3 {
+        font-size: 1rem;
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
+
+    .hero-content .hero-logo-img {
+        height: 5rem;
+        margin-top: 0.5rem;
+    }
+
+    #welcoming-section {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+
+    .welcoming-content h1 {
+        font-size: 1.75rem;
+    }
+
+    .welcoming-content .welcoming-desc {
+        font-size: 1rem;
+    }
+
+    .filter-buttons {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .filter-buttons button {
+        padding: 0.4rem 0.9rem;
+        font-size: 0.9rem;
+    }
+
+    .stadistics-content {
+        grid-template-columns: 1fr;
+        border-left: none;
+        border-top: 3px dashed var(--tertiary-color);
+    }
+
+    .stadistics-item {
+        border-right: none;
+        border-bottom: 3px dashed var(--tertiary-color);
+    }
+
+    .stadistics-item:nth-child(n+3) {
+        border-bottom: 3px dashed var(--tertiary-color);
+    }
+
+    .stadistics-item:last-child {
+        border-bottom: none;
+    }
+
+    .stadistics-item h1 {
+        font-size: 2rem;
+    }
+
+    .stadistics-item p {
+        font-size: 1.25rem;
+    }
+
+    #slogan-section {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #slogan-section h1 {
+        font-size: 1.5rem;
+        letter-spacing: 0.03em;
+    }
+
+    .values-item h2 {
+        font-size: 1.75rem;
+    }
+
+    .values-item p {
+        font-size: 1rem;
+    }
+
+    .products-content {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .product-img-placeholder {
+        height: 220px;
+    }
+
+    #products-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .rights_sg p {
+        font-size: 0.85rem;
+        text-align: center;
+    }
+
+    .rights2_sg {
+        gap: 0.5rem;
+    }
+
+    .rights2_sg a {
+        font-size: 0.85rem;
+    }
+
+    .values-content {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .values-item {
+        border-right: none;
+        border-bottom: 2px dashed var(--tertiary-color);
+        min-height: auto;
+        padding: 2rem 1.5rem;
+    }
+
+    .values-item:last-child {
+        border-bottom: none;
+    }
+
+    footer {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .rights_sg {
+        padding: 0 1.5rem;
+    }
+
+    .rights2_sg {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
