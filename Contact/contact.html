@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storm Games | Contact</title>
     <link rel="stylesheet" href="/Contact/contact.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <div class="nav-left">
             <button class="primary-button"><a href="/index.html">Home</a></button>
-            <button class="secondary-button"><a href="#">Products</a></button>
+            <button class="secondary-button"><a href="/Catalog/catalog.html">Products</a></button>
         </div>
         <div class="nav-right">
             <div class="cart-wrap">
@@ -37,73 +40,70 @@
             <button class="primary-button"><a href="#">Contact</a></button>
         </div>
     </header>
-
     <main>
-        <div class="form">
+        <section id="form-usuario">
             <div>
-                <img src="https://www.digitalbizmagazine.com/wp-content/uploads/2018/08/imagen-1-1024x683.jpg" alt="Servicio al cliente">
+                <img src="https://www.digitalbizmagazine.com/wp-content/uploads/2018/08/imagen-1-1024x683.jpg" alt="Servicio al cliente" class="cust_ser">
             </div>
-            <div>
+            <div class="form_usu2">
                 <div>
-                    <h2>Ask how we can help you!</h2>
+                    <h2>ASK HOW WE CAN HELP YOU!</h2>
                 </div>
-                <div>
-                    <form action="#" method="post">
+                <div class="form_gen">
+                    <form action="#" method="post" class="form_int">
                         <label for="fullname">Full name</label><br>
                         <input type="text" id="fullname" name="fullname" required><br><br>
 
                         <label for="number">ID account</label><br>
-                        <input type="number" id="accountid" name="accountid" required><br><br>
+                        <input type="text" id="accountid" name="accountid" maxlength="9" pattern="[0-9]{9}" inputmode="numeric" required><br><br>
 
                         <label for="email">Email</label><br>
                         <input type="email" id="email" name="email" required><br><br>
 
-                        <label for="message">Message</label>
+                        <label for="message">Message</label><br>
                         <textarea id="message" name="message" rows="6" cols="50" required></textarea><br><br>
 
-                        <button type="submit">Send</button>
+                        <button type="submit" class="form_but">Send</button>
                     </form>
                 </div>
             </div>
-        </div>
-
-        <div class="social_media">
-            <div>
-                <h2>Feel free to explore our social media</h4>
+        </section>
+        <section id="social_media">
+            <div class="mens_sm">
+                <h2>FEEL FREE TO EXPLORE OUR SOCIAL MEDIA</h2>
             </div>
             <div class="logos">
-                <div>
+                <div class="logos_2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png" alt="Instagram" class="social">
-                    <p>official.stormgames</p>
+                    <a href="https://www.instagram.com/">official.stormgames</a>
                 </div>
-                <div>
+                <div class="logos_2">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/960px-2023_Facebook_icon.svg.png" alt="Facebook" class="social">
-                    <p>Storm Games</p>
+                    <a href="https://www.facebook.com/">Storm Games</a>
                 </div>
-                <div>
+                <div class="logos_2">
                     <img src="https://images.seeklogo.com/logo-png/34/2/tiktok-logo-png_seeklogo-340606.png" alt="TikTok" class="social">
-                    <p>storm_games</p>
+                    <a href="https://www.tiktok.com/">storm_games</a>
                 </div>
-                <div>
-                    <img src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?semt=ais_user_personalization&w=740&q=80" alt="X" class="social">
-                    <p>StormGames</p>
+                <div class="logos_2">
+                    <img src="https://img.freepik.com/vector-gratis/nuevo-diseno-icono-x-logotipo-twitter-2023_1017-45418.jpg?semt=ais_user_personalization&w=740&q=80" alt="X" id="social_special" class="social">
+                    <a href="https://x.com/">StormGames</a>
                 </div>
             </div>
-        </div>
-
+        </section>
     </main>
     <footer>
-        <div>
-            <p>&copy; 2026 Storm. All rights reserved. All trademarks are property of their respective owners in Costa Rica and other countries.</p>  
+        <div class="rights_sg">
+            <p>&copy; 2026 Storm Games. All rights reserved. All trademarks are property of their respective owners in Costa Rica and other countries.</p>  
         </div>
-        <div>
-            <p><a href="#">Privacy Policy</a> | <a href="#">Legal</a> | 
-                <a href="#">Accessibility</a> | <a href="#">Storm Games Agreement</a> | 
-                <a href="#">Terms & Conditions</a> | <a href="#">Cookies</a>
-            </p>
+        <div class="rights2_sg">
+            <a href="#">Privacy Policy</a> | 
+            <a href="#">Legal</a> | 
+            <a href="#">Accessibility</a> | 
+            <a href="#">Storm Games Agreement</a> | 
+            <a href="#">Terms & Conditions</a> | 
+            <a href="#">Cookies</a>
         </div>
-        
     </footer>
-    
 </body>
 </html>

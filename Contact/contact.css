@@ -6,7 +6,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--text-color);
+    color: var(--background-color);
     scroll-behavior: smooth;
 }
 
@@ -26,149 +26,177 @@ html, body {
     --text-secondary-color: #81807E;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* ====== INICIO DE FORMULARIO DE CONTACTO ====== */
+
+#form-usuario {
+    padding-top: 7rem;
+    display: flex;
+    gap: 3.8rem;
+}
+
+.cust_ser {
+    width: 55vw;
+    height: 83vh;
+    object-fit: cover;
+    border-radius: 0 50px 50px 0;
+}
+
+.form_usu2 {
+    width: 36vw;
+}
+
+.form_usu2 h2 {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.form_gen {
+    padding-top: 1.8rem;
+}
+
+.form_int {
+    margin-left: 5rem;
+}
+
+label {
+    background-color: transparent;
     color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
     margin: 0;
 }
 
-/* ========== HEADER (global) ========== */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
+input, textarea {
+    width: 25.9vw;
+    background-color: var(--tertiary-color);
+    border-radius: 10px;
+    resize: none;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+input {
+    height: 6vh;
+}
+
+.form_but{
+    background-color: var(--tertiary-color);
+    width: 20vw;
+    height: 6vh;
+    margin-left: 3rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    border-style: none;
+}
+
+.form_but:hover {
+    background-color: var(--secondary-color);
+    transition: 0.6s;
+}
+
+/* ====== FINAL DE FORMULARIO DE CONTACTO ====== */
+
+/* ====== INICIO DE LAS SOCIAL MEDIA ====== */
+
+#social_media {
+    background-color: rgba(59, 36, 36, 0);
+    width: 100%;
+    height: 34vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;  
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    background: rgba(10, 10, 26, 0.85);
-    backdrop-filter: blur(8px);
+    gap: 1rem;
 }
 
-header .primary-button,
-header .secondary-button {
-    border-radius: 8px;
-    padding: 0.5rem 1.25rem;
-    font-weight: 600;
-    text-transform: none;
-    border: none;
-    cursor: pointer;
-}
-
-header .primary-button {
-    background: var(--primary-color);
-    color: #fff;
-}
-
-header .primary-button a {
-    color: #fff;
-    text-decoration: none;
-}
-
-header .secondary-button {
-    background: transparent;
-    color: #fff;
-    border: 1px dashed rgba(255, 255, 255, 0.4);
-}
-
-header .secondary-button a {
-    color: #fff;
-    text-decoration: none;
-}
-
-header .cart-icon {
-    color: #fff;
-    font-size: 1.25rem;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.08);
-}
-
-header .cart-icon:hover {
-    background: rgba(255, 255, 255, 0.15);
-}
-
-/* Nav groups: left (Home, Products) and right (cart, Contact) */
-header {
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-header .nav-left {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-header .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-
-
-
-
-
-
-
-footer {
+#social_media h2 {
+    font-size: 1.8rem;
     color: white;
+    text-align: center;
 }
 
-.form {
-    background-color: rgb(26, 65, 52);
+.mens_sm {
+    background-color: rgba(85, 107, 47, 0);
+    padding: 1rem 2rem;
 }
 
-.social_media {
-    background-color: chocolate;
+.logos {
+    background-color: rgba(100, 148, 237, 0);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
 
+.logos_2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logos_2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
 
 .social {
-    width: 2.6vw;
-    height: 5.7vh;
-    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
+
+#social_special {
+    border-radius: 8px;
+}
+
+/* ====== FIN DE LAS SOCIAL MEDIA ====== */
+
+/* ====== INICIO DEL FOOTER ====== */
+
+footer {
+    background-color: rgba(149, 73, 46, 0);
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    gap: 2rem;
+}
+
+.rights_sg {
+    padding: 0 8rem 0 8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.rights_sg p {
+    padding-top: 3.2rem;
+    border-top: 5px dashed var(--tertiary-color);
+}
+
+.rights2_sg {
+    padding: 0 5rem 0 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.rights2_sg a {
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.3s;
+    padding: 0.3rem;
+}
+
+.rights2_sg a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #000;
+}
+
+/* ====== FIN DEL FOOTER ====== */
