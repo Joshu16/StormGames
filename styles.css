@@ -45,7 +45,7 @@ header {
     padding: 1rem 2rem;
     background: var(--background-color);
     backdrop-filter: blur(8px);
-    border-bottom: 5px dashed var(--tertiary-color);
+    border-bottom: 2px dashed var(--tertiary-color);
 }
 
 header .primary-button,
