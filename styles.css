@@ -43,9 +43,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background: rgba(10, 10, 26, 0.85);
+    background: var(--background-color);
     backdrop-filter: blur(8px);
-    border-bottom: 3px dashed var(--background-color);
+    border-bottom: 5px dashed var(--tertiary-color);
 }
 
 header .primary-button,
