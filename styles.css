@@ -258,8 +258,7 @@ header .nav-right {
     cursor: pointer;
 }
 
-/* --- En pantallas pequeñas: mostramos el botón hamburguesa y escondemos el menú arriba.
-      Cuando header tiene .menu-open, el menú baja (translateY(0)) y se ve. --- */
+/* RESPONSIVE */
 @media (max-width: 768px) {
     header {
         padding: 0.6rem 1rem;
@@ -271,7 +270,6 @@ header .nav-right {
         display: flex;
     }
 
-    /* Menú por defecto: escondido arriba de la pantalla */
     header .nav-menu {
         position: fixed;
         top: 56px;
@@ -282,14 +280,13 @@ header .nav-right {
         backdrop-filter: blur(8px);
         padding: 1rem;
         gap: 1rem;
-        transform: translateY(-100%);  /* Fuera de vista arriba */
+        transform: translateY(-100%);
         opacity: 0;
         visibility: hidden;
         transition: transform 0.25s ease, opacity 0.25s ease, visibility 0.25s ease;
         z-index: 99;
     }
 
-    /* Menú abierto: bajamos el menú y lo hacemos visible */
     header.menu-open .nav-menu {
         transform: translateY(0);
         opacity: 1;
