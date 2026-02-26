@@ -12,13 +12,14 @@
 </head>
 
 <body>
-    <header>
-        <button class="hamburger" type="button" aria-label="Abrir menú">
-            <span></span>
-            <span></span>
-            <span></span>
+    <header id="header">
+        <!-- Botón hamburguesa: 3 rayas que al hacer clic abren/cierran el menú -->
+        <button id="boton-hamburguesa" class="hamburger" type="button" aria-label="Abrir menú">
+            <span class="linea"></span>
+            <span class="linea"></span>
+            <span class="linea"></span>
         </button>
-        <nav class="nav-menu">
+        <nav id="menu-nav" class="nav-menu">
             <div class="nav-left">
                 <button class="primary-button"><a href="#">Home</a></button>
                 <button class="secondary-button"><a href="#">Products</a></button>
@@ -50,9 +51,14 @@
         </nav>
     </header>
     <script>
-        document.querySelector('.hamburger').onclick = function () {
-            document.querySelector('header').classList.toggle('menu-open');
-        };
+        // Menú hamburguesa: al hacer clic, ponemos o quitamos la clase "menu-open" al header.
+        // El CSS usa esa clase para mostrar el menú y cambiar el ícono a una X.
+        var botonHamburguesa = document.getElementById('boton-hamburguesa');
+        var header = document.getElementById('header');
+
+        botonHamburguesa.addEventListener('click', function () {
+            header.classList.toggle('menu-open');
+        });
     </script>
     <main>
         <section id="hero-section">
