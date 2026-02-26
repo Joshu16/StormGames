@@ -31,22 +31,22 @@
     "title": "Storm Originals",
     "items": [
       {
-        "id": "game1",
-        "item-title": "Game 1",
+        "id": "terraria",
+        "item-title": "Terraria",
         "item-likes": "500K",
         "item-price": 9.99,
         "item-img": "/img/game4.jpg"
       },
       {
-        "id": "game2",
-        "item-title": "Game 2",
+        "id": "tetris",
+        "item-title": "Tetris",
         "item-likes": "750K",
         "item-price": 14.99,
         "item-img": "/img/game5.jpg"
       },
       {
-        "id": "game3",
-        "item-title": "Game 3",
+        "id": "stardew",
+        "item-title": "Stardew Valley",
         "item-likes": "1M",
         "item-price": 19.99,
         "item-img": "/img/game6.jpg"

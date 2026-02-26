@@ -2,12 +2,18 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgba(10, 10, 26, 0.85);
 }
 main {
     padding-top: 10rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 .item {
   border: 1px solid #8A38F5;
