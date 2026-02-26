@@ -1,0 +1,56 @@
+[
+  {
+    "id": "recomendados",
+    "title": "Recomendados",
+    "items": [
+      {
+        "id": "fifa",
+        "item-title": "Fifa",
+        "item-likes": "1M",
+        "item-price": 19.99,
+        "item-img": "/img/game1.jpg"
+      },
+      {
+        "id": "call-of-duty",
+        "item-title": "Call of Duty",
+        "item-likes": "2M",
+        "item-price": 29.99,
+        "item-img": "/img/game2.jpg"
+      },
+      {
+        "id": "minecraft",
+        "item-title": "Minecraft",
+        "item-likes": "3M",
+        "item-price": 14.99,
+        "item-img": "/img/game3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "storm-originals",
+    "title": "Storm Originals",
+    "items": [
+      {
+        "id": "game1",
+        "item-title": "Game 1",
+        "item-likes": "500K",
+        "item-price": 9.99,
+        "item-img": "/img/game4.jpg"
+      },
+      {
+        "id": "game2",
+        "item-title": "Game 2",
+        "item-likes": "750K",
+        "item-price": 14.99,
+        "item-img": "/img/game5.jpg"
+      },
+      {
+        "id": "game3",
+        "item-title": "Game 3",
+        "item-likes": "1M",
+        "item-price": 19.99,
+        "item-img": "/img/game6.jpg"
+      }
+    ]
+  }
+]
