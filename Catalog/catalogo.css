@@ -1,3 +1,4 @@
+/* EMPIEZA TRABAJO FRANCELLA */
 body {
   margin: 0;
   padding: 0;
@@ -47,6 +48,7 @@ button {
     background-color: #f19854;
 }
 
+/* TERMINA TRABAJO FRANCELLA */
 @media (max-width: 767px) {
   .container {
     /* Force 2 columns on mobile devices */

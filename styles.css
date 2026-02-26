@@ -15,11 +15,11 @@ html, body {
     overflow-x: hidden;
 }
 body{
-    background-color: #010311;
+    background-color: rgba(10, 10, 26, 0.85);
 }
 /* colore s variables */
 :root {
-    --background-color: #010311;
+    --background-color:rgba(10, 10, 26, 0.85);
     --primary-color: #F9B17A;
     --secondary-color: #676F9D;
     --tertiary-color: #1F212C;
