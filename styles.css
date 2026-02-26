@@ -14,12 +14,10 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-body{
-    background-color: rgb(10, 10, 26)
-}
+
 /* colore s variables */
 :root {
-    --background-color: rgb(10, 10, 26)
+    --background-color: #010311;
     --primary-color: #F9B17A;
     --secondary-color: #676F9D;
     --tertiary-color: #1F212C;
@@ -47,6 +45,7 @@ header {
     padding: 1rem 2rem;
     background: rgba(10, 10, 26, 0.85);
     backdrop-filter: blur(8px);
+    border-bottom: 3px dashed var(--tertiary-color);
 }
 
 header .primary-button,
@@ -99,6 +98,52 @@ header .cart-icon:hover {
 
 header {
     flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/*  Header Movil:*/
+header .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* El icono */
+header .hamburger span,
+header .hamburger .linea {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--text-color);
+    border-radius: 2px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+header.menu-open .hamburger span:nth-child(1),
+header.menu-open .hamburger .linea:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+header.menu-open .hamburger span:nth-child(2),
+header.menu-open .hamburger .linea:nth-child(2) {
+    opacity: 0;
+}
+header.menu-open .hamburger span:nth-child(3),
+header.menu-open .hamburger .linea:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+header .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
     gap: 0.5rem;
 }
 
@@ -217,9 +262,12 @@ header .nav-right {
 @media (max-width: 768px) {
     header {
         padding: 0.6rem 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.5rem;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    header .hamburger {
+        display: flex;
     }
 
     header .nav-menu {
@@ -245,10 +293,11 @@ header .nav-right {
         visibility: visible;
     }
 
+    header .nav-left,
     header .nav-right {
-        order: 2;
+        flex-direction: column;
         width: 100%;
-        justify-content: center;
+        align-items: center;
         gap: 0.5rem;
     }
 
@@ -288,4 +337,3 @@ header .nav-right {
         justify-content: center;
     }
 }
-
