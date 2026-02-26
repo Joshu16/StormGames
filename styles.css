@@ -45,6 +45,7 @@ header {
     padding: 1rem 2rem;
     background: rgba(10, 10, 26, 0.85);
     backdrop-filter: blur(8px);
+    border-bottom: 3px dashed var(--tertiary-color);
 }
 
 header .primary-button,
@@ -97,6 +98,46 @@ header .cart-icon:hover {
 
 header {
     flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+header .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header .hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: var(--text-color);
+    border-radius: 2px;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+header.menu-open .hamburger span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+header.menu-open .hamburger span:nth-child(2) {
+    opacity: 0;
+}
+header.menu-open .hamburger span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+header .nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
     gap: 0.5rem;
 }
 
@@ -211,25 +252,46 @@ header .nav-right {
     cursor: pointer;
 }
 
-/*  HEADER */
+/*  HEADER - HAMBURGER */
 @media (max-width: 768px) {
     header {
         padding: 0.6rem 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 0.5rem;
+        flex-wrap: nowrap;
+        justify-content: space-between;
     }
 
-    header .nav-left {
-        order: 1;
-        width: 100%;
-        justify-content: center;
+    header .hamburger {
+        display: flex;
     }
 
+    header .nav-menu {
+        position: fixed;
+        top: 56px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: rgba(10, 10, 26, 0.98);
+        backdrop-filter: blur(8px);
+        padding: 1rem;
+        gap: 1rem;
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform 0.25s ease, opacity 0.25s ease, visibility 0.25s ease;
+        z-index: 99;
+    }
+
+    header.menu-open .nav-menu {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    header .nav-left,
     header .nav-right {
-        order: 2;
+        flex-direction: column;
         width: 100%;
-        justify-content: center;
+        align-items: center;
         gap: 0.5rem;
     }
 
