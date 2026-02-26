@@ -186,6 +186,7 @@ footer {
     justify-content: center;
     gap: 3rem;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 .rights2_sg a {
@@ -200,6 +201,23 @@ footer {
     color: #000;
 }
 
+.polit_sg {
+     rgb(219, 22, 22);
+}
+
 /* ====== FIN DEL FOOTER ====== */
 
 /* ====== RESPONSIVE ====== */  
+ @media(max-width: 768px) {
+    footer {
+        background-color: rgba(74, 102, 102, 0);
+        height: 46vh;
+    }
+    .rights_sg {
+        align-items: center;
+        text-align: justify;
+    }
+    .rights2_sg {
+        align-items: center;
+    }
+ }
