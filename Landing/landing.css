@@ -7,7 +7,6 @@ main {
     overflow-x: hidden;
 }
 
-/*  HERO SECTION  */
 #hero-section {
     min-height: 85vh;
     width: 100%;
@@ -71,7 +70,6 @@ main {
     color: var(--text-secondary-color);
 }
 
-/*  WELCOMING SECTION  */
 #welcoming-section {
     background: var(--background-color);
     padding: 4rem 3rem;
@@ -152,7 +150,7 @@ main {
     color: var(--text-secondary-color);
 }
 
-/* SLOGAN SECTION */
+/* SLOGAN */
 #slogan-section {
     background: var(--background-color);
     padding: 2rem 3rem;
@@ -288,7 +286,7 @@ main {
     margin: 0;
 }
 
-/* ====== INICIO DEL FOOTER ====== */
+/* FOOTER */
 
 footer {
     background-color: var(--background-color);
