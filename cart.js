@@ -20,18 +20,17 @@ function removeFromCart(i) {
 }
 
 function paintCart() {
-  var cart = getCart();
   var box = document.getElementById('cart-items');
-  var totalEl = document.getElementById('cart-total');
   if (!box) return;
-  box.innerHTML = '';
+  var cart = getCart();
   var total = 0;
+  box.innerHTML = '';
   for (var i = 0; i < cart.length; i++) {
-    var it = cart[i];
-    total += it.price;
-    box.innerHTML += '<div class="cart-panel-item">' + it.title + ' - $' + it.price + ' <a href="#" class="cart-item-remove" data-i="' + i + '">Quitar</a></div>';
+    total += cart[i].price;
+    box.innerHTML += '<div class="cart-panel-item">' + cart[i].title + ' - $' + cart[i].price + ' <a href="#" class="cart-item-remove" data-i="' + i + '">Quitar</a></div>';
   }
-  if (totalEl) totalEl.textContent = '$' + total.toFixed(2);
+  var tot = document.getElementById('cart-total');
+  if (tot) tot.textContent = '$' + total.toFixed(2);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -44,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var priceEl = item.querySelector('.item-price');
       if (priceEl) addToCart(title, title, parseFloat(priceEl.textContent.replace('$', '')));
     }
-    if (t.classList && t.classList.contains('btn-add-cart') && t.closest('.products-item')) {
+    if (t.classList && t.classList.contains('btn-add-cart')) {
       var p = t.closest('.products-item');
       addToCart(p.dataset.id, p.dataset.title, parseFloat(p.dataset.price));
     }
