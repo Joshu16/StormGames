@@ -1,5 +1,5 @@
 if (localStorage.getItem('logueado') === 'si') {
-    location.href = '/Landing/landing.html';
+    location.href = 'Landing/landing.html';
 }
 
 document.getElementById('login-form').onsubmit = function (e) {
@@ -10,7 +10,7 @@ document.getElementById('login-form').onsubmit = function (e) {
 
     if (usuario === 'alvarito y ferxxo' && password === '1234') {
         localStorage.setItem('logueado', 'si');
-        location.href = '/Landing/landing.html';
+        location.href = 'Landing/landing.html';
     } else {
         mensaje.textContent = 'Usuario o contraseña incorrectos.';
     }

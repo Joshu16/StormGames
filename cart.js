@@ -51,5 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
       removeFromCart(parseInt(t.getAttribute('data-i'), 10));
     }
+    if (t.classList && t.classList.contains('cart-panel-buy')) {
+      e.preventDefault();
+      alert('Función futura');
+    }
   });
 });
