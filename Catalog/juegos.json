@@ -75,8 +75,8 @@
     ]
   },
   {
-    "id": "accion",
-    "title": "Acción",
+    "id": "action",
+    "title": "Action",
     "items": [
       {
         "id": "doom-eternal",
@@ -109,8 +109,8 @@
     ]
   },
   {
-    "id": "aventura",
-    "title": "Aventura",
+    "id": "adventure",
+    "title": "Adventure",
     "items": [
       {
         "id": "zelda-botw",
