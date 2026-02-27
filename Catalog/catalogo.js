@@ -13,6 +13,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     container = recomendadosContainer;
                 } else if (category.id === 'storm-originals') {
                     container = stormOriginalsContainer;
+                } else if (category.id === 'action') {
+                    container = document.getElementById('action-container');
+                } else if (category.id === 'adventure') {
+                    container = document.getElementById('adventure-container');
+                } else if (category.id === 'indie') {
+                    container = document.getElementById('indie-container');
                 }
 
                 if (container) {
