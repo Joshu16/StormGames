@@ -36,12 +36,19 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </div>
                                 <div class="item-price">$${item['item-price']}</div>
                             </div>
-                            <button>Add to Cart</button>
+                            <button id="buy-${item}">Add to Cart</button>
                         `;
 
                         container.appendChild(itemElement);
                     });
                 }
+            });
+            const buyButton = document.querySelectorAll('button[id^="buy-"]');
+            buyButton.forEach(button => {
+                button.addEventListener('click', () => {
+                    const item-title = button.id.replace('buy-', '');
+                    alert(`Added ${item-title} to cart!`);
+                });
             });
 
         })
