@@ -11,6 +11,13 @@
         "item-img": "/img/game1.jpg"
       },
       {
+        "id": "fifa",
+        "item-title": "Fifa",
+        "item-likes": "1M",
+        "item-price": 19.99,
+        "item-img": "/img/game1.jpg"
+      },
+      {
         "id": "call-of-duty",
         "item-title": "Call of Duty",
         "item-likes": "2M",
@@ -30,6 +37,13 @@
     "id": "storm-originals",
     "title": "Storm Originals",
     "items": [
+      {
+        "id": "terraria",
+        "item-title": "Terraria",
+        "item-likes": "500K",
+        "item-price": 9.99,
+        "item-img": "/img/game4.jpg"
+      },
       {
         "id": "terraria",
         "item-title": "Terraria",

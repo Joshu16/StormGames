@@ -56,27 +56,18 @@ header .secondary-button {
     text-transform: none;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
 }
 
 header .primary-button {
     background: var(--primary-color);
-    color: #fff;
-}
-
-header .primary-button a {
-    color: #fff;
-    text-decoration: none;
 }
 
 header .secondary-button {
     background: transparent;
-    color: #fff;
     border: 1px dashed rgba(255, 255, 255, 0.4);
-}
-
-header .secondary-button a {
-    color: #fff;
-    text-decoration: none;
 }
 
 header .cart-icon {
@@ -190,6 +181,12 @@ header .nav-right {
     visibility: visible;
 }
 
+.cart-panel-items {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 0.5rem;
+}
+
 .cart-panel-title {
     font-size: 1.1rem;
     font-weight: 700;
@@ -223,6 +220,11 @@ header .nav-right {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.cart-item-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
 }
 
 .cart-item-price {
