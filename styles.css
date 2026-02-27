@@ -338,3 +338,23 @@ header .nav-right {
     }
 }
 
+/* ====== INICIO DEL RESPONSIVE FOOTER ====== */
+@media (max-width: 768px) {
+    footer {
+        height: auto;
+        padding: 3rem 1rem;
+    }
+    .rights_sg {
+        padding-top: 3rem;
+        text-align: justify;
+    }
+    .rights_sg p {
+        padding: 2rem 0 0 0;
+    }
+    .rights2_sg {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+/* ====== FIN DEL RESPONSIVE FOOTER ====== */
