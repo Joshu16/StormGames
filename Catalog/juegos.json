@@ -30,13 +30,6 @@
         "item-likes": "1.8M",
         "item-price": 49.99,
         "item-img": "/img/game4.jpg"
-      },
-      {
-        "id": "fortnite",
-        "item-title": "Fortnite",
-        "item-likes": "5M",
-        "item-price": 0.00,
-        "item-img": "/img/game5.jpg"
       }
     ]
   },
