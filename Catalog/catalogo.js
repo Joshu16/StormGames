@@ -43,14 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
             });
-            const buyButton = document.querySelectorAll('button[id^="buy-"]');
-            buyButton.forEach(button => {
-                button.addEventListener('click', () => {
-                    const item-title = button.id.replace('buy-', '');
-                    alert(`Added ${item-title} to cart!`);
-                });
-            });
-
         })
         .catch(error => console.error('Error loading game data:', error));
 });
