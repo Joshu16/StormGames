@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h2 class="item-title">${item['item-title']}</h2>
                             <div class="item-desc">
                                 <div class="item-likes">
-                                    <img class="icon" src="/assets/like.svg" alt="">
+                                    <img class="icon" src="../assets/like.svg" alt="">
                                     ${item['item-likes']}
                                 </div>
                                 <div class="item-price">$${item['item-price']}</div>

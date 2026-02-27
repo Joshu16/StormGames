@@ -1,172 +1,52 @@
 [
   {
-    "id": "recomendados",
-    "title": "Recomendados",
-    "items": [
-      {
-        "id": "fifa-24",
-        "item-title": "FIFA 24",
-        "item-likes": "1.2M",
-        "item-price": 39.99,
-        "item-img": "/img/game1.jpg"
-      },
-      {
-        "id": "call-of-duty-mw3",
-        "item-title": "Call of Duty MW3",
-        "item-likes": "2.4M",
-        "item-price": 59.99,
-        "item-img": "/img/game2.jpg"
-      },
-      {
-        "id": "minecraft",
-        "item-title": "Minecraft",
-        "item-likes": "3.1M",
-        "item-price": 19.99,
-        "item-img": "/img/game3.jpg"
-      },
-      {
-        "id": "elden-ring",
-        "item-title": "Elden Ring",
-        "item-likes": "1.8M",
-        "item-price": 49.99,
-        "item-img": "/img/game4.jpg"
-      }
-    ]
-  },
-  {
     "id": "storm-originals",
     "title": "Storm Originals",
     "items": [
-      {
-        "id": "cyber-shadow",
-        "item-title": "Cyber Shadow",
-        "item-likes": "420K",
-        "item-price": 14.99,
-        "item-img": "/img/game6.jpg"
-      },
-      {
-        "id": "neon-drift",
-        "item-title": "Neon Drift",
-        "item-likes": "380K",
-        "item-price": 12.99,
-        "item-img": "/img/game7.jpg"
-      },
-      {
-        "id": "void-runner",
-        "item-title": "Void Runner",
-        "item-likes": "610K",
-        "item-price": 17.99,
-        "item-img": "/img/game8.jpg"
-      },
-      {
-        "id": "pixel-kingdom",
-        "item-title": "Pixel Kingdom",
-        "item-likes": "295K",
-        "item-price": 9.99,
-        "item-img": "/img/game9.jpg"
-      }
+      {"id": "cyber-shadow", "item-title": "Cyber Shadow", "item-likes": "420K", "item-price": 14.99, "item-img": "https://i.scdn.co/image/ab67616d00001e02a167dcf321526fd24f43c85b"},
+      {"id": "neon-drift", "item-title": "Neon Drift", "item-likes": "380K", "item-price": 12.99, "item-img": "https://cdn-images.dzcdn.net/images/cover/971162e680062867332a43a575544476/0x1900-000000-80-0-0.jpg"},
+      {"id": "void-runner", "item-title": "Void Runner", "item-likes": "610K", "item-price": 17.99, "item-img": "https://yt3.googleusercontent.com/ytc/AIdro_nvfDxfULrR1XzVHMq2L7R8HHwqtqYDvg1C6lKedumXPE0=s900-c-k-c0x00ffffff-no-rj"},
+      {"id": "pixel-kingdom", "item-title": "Pixel Kingdom", "item-likes": "295K", "item-price": 9.99, "item-img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png"}
+    ]
+  },
+  {
+    "id": "recomendados",
+    "title": "Recomendados",
+    "items": [
+      {"id": "fifa-24", "item-title": "FIFA 24", "item-likes": "1.2M", "item-price": 39.99, "item-img": "https://image.api.playstation.com/vulcan/ap/rnd/202408/0817/4248a0d1a669210e5caf5174eda176c7883be2c9089fa106.png"},
+      {"id": "call-of-duty-mw3", "item-title": "Call of Duty MW3", "item-likes": "2.4M", "item-price": 59.99, "item-img": "https://juegosdigitalescostarica.com/files/images/productos/1724362719-modern-call-of-duty-modern-warfare-3-xbox-one-0.webp"},
+      {"id": "minecraft", "item-title": "Minecraft", "item-likes": "3.1M", "item-price": 19.99, "item-img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Minecraft_2024_cover_art.png/250px-Minecraft_2024_cover_art.png"},
+      {"id": "elden-ring", "item-title": "Elden Ring", "item-likes": "1.8M", "item-price": 49.99, "item-img": "https://image.api.playstation.com/vulcan/ap/rnd/202110/2000/aGhopp3MHppi7kooGE2Dtt8C.png"}
     ]
   },
   {
     "id": "action",
     "title": "Action",
     "items": [
-      {
-        "id": "doom-eternal",
-        "item-title": "Doom Eternal",
-        "item-likes": "2M",
-        "item-price": 29.99,
-        "item-img": "/img/game10.jpg"
-      },
-      {
-        "id": "spider-man-2",
-        "item-title": "Spider-Man 2",
-        "item-likes": "1.5M",
-        "item-price": 69.99,
-        "item-img": "/img/game11.jpg"
-      },
-      {
-        "id": "god-of-war",
-        "item-title": "God of War",
-        "item-likes": "2.3M",
-        "item-price": 39.99,
-        "item-img": "/img/game12.jpg"
-      },
-      {
-        "id": "halo-infinite",
-        "item-title": "Halo Infinite",
-        "item-likes": "1.1M",
-        "item-price": 34.99,
-        "item-img": "/img/game13.jpg"
-      }
+      {"id": "doom-eternal", "item-title": "Doom Eternal", "item-likes": "2M", "item-price": 29.99, "item-img": "https://image.api.playstation.com/vulcan/ap/rnd/202010/0114/ERNPc4gFqeRDG1tYQIfOKQtM.png"},
+      {"id": "spider-man-2", "item-title": "Spider-Man 2", "item-likes": "1.5M", "item-price": 69.99, "item-img": "https://upload.wikimedia.org/wikipedia/en/0/0f/SpiderMan2PS5BoxArt.jpeg"},
+      {"id": "god-of-war", "item-title": "God of War", "item-likes": "2.3M", "item-price": 39.99, "item-img": "https://m.media-amazon.com/images/M/MV5BMDkxMzExYjAtZmQwMC00MmQzLWE1M2QtMGEwY2M1N2I0NDIwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"},
+      {"id": "halo-infinite", "item-title": "Halo Infinite", "item-likes": "1.1M", "item-price": 34.99, "item-img": "https://juegosdigitalescostarica.com/files/images/productos/1644613415-halo-infinite-xbox-one.jpg"}
     ]
   },
   {
     "id": "adventure",
     "title": "Adventure",
     "items": [
-      {
-        "id": "zelda-botw",
-        "item-title": "Zelda Breath of the Wild",
-        "item-likes": "2.8M",
-        "item-price": 59.99,
-        "item-img": "/img/game14.jpg"
-      },
-      {
-        "id": "uncharted-4",
-        "item-title": "Uncharted 4",
-        "item-likes": "1.6M",
-        "item-price": 24.99,
-        "item-img": "/img/game15.jpg"
-      },
-      {
-        "id": "tomb-raider",
-        "item-title": "Tomb Raider",
-        "item-likes": "980K",
-        "item-price": 19.99,
-        "item-img": "/img/game16.jpg"
-      },
-      {
-        "id": "horizon-zero-dawn",
-        "item-title": "Horizon Zero Dawn",
-        "item-likes": "1.9M",
-        "item-price": 29.99,
-        "item-img": "/img/game17.jpg"
-      }
+      {"id": "zelda-botw", "item-title": "Zelda Breath of the Wild", "item-likes": "2.8M", "item-price": 59.99, "item-img": "https://m.media-amazon.com/images/M/MV5BY2QwOGJlZDQtMDhhNi00M2YwLWFiNzctZGI3NDc4ZGY0OGZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"},
+      {"id": "uncharted-4", "item-title": "Uncharted 4", "item-likes": "1.6M", "item-price": 24.99, "item-img": "https://preview.redd.it/uncharted-2-among-thieves-was-released-15-years-ago-today-v0-qch54o6zijud1.jpeg?width=640&crop=smart&auto=webp&s=546b6b4fce4dfc9c117b8d4409fd1b208403fa99"},
+      {"id": "tomb-raider", "item-title": "Tomb Raider", "item-likes": "980K", "item-price": 19.99, "item-img": "https://static.wikia.nocookie.net/tomb-raider/images/a/ad/TR2013_Portada_cuadrada.png/revision/latest?cb=20180305194222&path-prefix=es"},
+      {"id": "horizon-zero-dawn", "item-title": "Horizon Zero Dawn", "item-likes": "1.9M", "item-price": 29.99, "item-img": "https://image.api.playstation.com/vulcan/ap/rnd/202409/2716/16b33fa9a5c7285ba86a035b4a1c5f8eb430b407eae35ffd.png"}
     ]
   },
   {
     "id": "indie",
     "title": "Indie",
     "items": [
-      {
-        "id": "hollow-knight",
-        "item-title": "Hollow Knight",
-        "item-likes": "1.4M",
-        "item-price": 14.99,
-        "item-img": "/img/game18.jpg"
-      },
-      {
-        "id": "dead-cells",
-        "item-title": "Dead Cells",
-        "item-likes": "870K",
-        "item-price": 19.99,
-        "item-img": "/img/game19.jpg"
-      },
-      {
-        "id": "cuphead",
-        "item-title": "Cuphead",
-        "item-likes": "1.2M",
-        "item-price": 19.99,
-        "item-img": "/img/game20.jpg"
-      },
-      {
-        "id": "undertale",
-        "item-title": "Undertale",
-        "item-likes": "950K",
-        "item-price": 9.99,
-        "item-img": "/img/game21.jpg"
-      }
+      {"id": "hollow-knight", "item-title": "Hollow Knight", "item-likes": "1.4M", "item-price": 14.99, "item-img": "https://static.wikia.nocookie.net/hollowknight/images/a/a1/HK_first_cover_art.png/revision/latest?cb=20201215163524"},
+      {"id": "dead-cells", "item-title": "Dead Cells", "item-likes": "870K", "item-price": 19.99, "item-img": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Dead_cells_cover_art.png/250px-Dead_cells_cover_art.png"},
+      {"id": "cuphead", "item-title": "Cuphead", "item-likes": "1.2M", "item-price": 19.99, "item-img": "https://www3.minijuegosgratis.com/v3/games/thumbnails/229208_7_sq.jpg"},
+      {"id": "undertale", "item-title": "Undertale", "item-likes": "950K", "item-price": 9.99, "item-img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Undertale_cover.jpg"}
     ]
   }
 ]
