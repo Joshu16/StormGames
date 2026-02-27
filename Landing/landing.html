@@ -21,8 +21,8 @@
         </button>
         <nav id="menu-nav" class="nav-menu">
             <div class="nav-left">
-                <button class="primary-button"><a href="#">Home</a></button>
-                <button class="secondary-button"><a href="#">Products</a></button>
+                <a href="/index.html" class="primary-button">Home</a>
+                <a href="/Catalog/catalogo.html" class="secondary-button">Products</a>
             </div>
             <div class="nav-right">
                 <div class="cart-wrap">
@@ -30,23 +30,17 @@
                         <i class="fa-solid fa-cart-shopping"></i>
                     </a>
                     <aside class="cart-panel" aria-label="Your Shopping Cart">
-                        <h2 class="cart-panel-title">Your Shopping Cart</h2>
+                        <h2 class="cart-panel-title">Tu carrito</h2>
                         <div class="cart-panel-divider"></div>
-                        <div class="cart-panel-item">
-                            <div class="cart-item-placeholder"></div>
-                            <div class="cart-item-details">
-                                <span class="cart-item-price">$4.99</span>
-                                <a href="#" class="cart-item-remove">Remove</a>
-                            </div>
-                        </div>
+                        <div class="cart-panel-items" id="cart-items"></div>
                         <div class="cart-panel-total">
-                            <span>Estimated total:</span>
-                            <span>$4.99</span>
+                            <span>Total:</span>
+                            <span id="cart-total">$0</span>
                         </div>
-                        <button type="button" class="cart-panel-buy">Buy</button>
+                        <button type="button" class="cart-panel-buy">Comprar</button>
                     </aside>
                 </div>
-                <button class="primary-button"><a href="/Contact/contact.html">Contact</a></button>
+                <a href="/Contact/contact.html" class="primary-button">Contact</a>
             </div>
         </nav>
     </header>
@@ -69,7 +63,8 @@
                     <button type="button">Fights</button>
                 </div>
                 <h1>Enjoy Your Life With Storm Games</h1>
-                <p class="welcoming-desc">Explore a world of games at StormGames.com, where trends meet affordability. Immerse yourself in the latest games and seize exclusive promotions.</p>
+                <p class="welcoming-desc">Explore a world of games at StormGames.com, where trends meet affordability.
+                    Immerse yourself in the latest games and seize exclusive promotions.</p>
             </div>
             <div class="stadistics-content">
                 <div class="stadistics-item">
@@ -112,85 +107,72 @@
                     <p>Redefining the digital luxury experience. At Storm Games, we blend high-end technology with the
                         art of play for a truly unrivaled setup of games.</p>
                 </div>
-                <div class="/values-item">
+                <div class="values-item">
                     <img src="/assets/Icon Container-2.png" alt="">
-                    <h2>3. Mastering the Storm</h>
-                    <p>Where power meets prestige. Explore a handpicked selection of premier gear designed to elevate
-                        your gameplay to a legendary status.</p>
+                    <h2>3. Mastering the Storm</h2>
+                        <p>Where power meets prestige. Explore a handpicked selection of premier gear designed to
+                            elevate
+                            your gameplay to a legendary status.</p>
                 </div>
             </div>
         </section>
         <section id="products-section">
             <h2>Most Played Games</h2>
-            <div class="products-content">
-                <div class="products-item">
+            <div class="products-content" id="landing-products">
+                <div class="products-item" data-id="game1" data-title="The Amazing Digital Videogame" data-price="4.99">
                     <div class="product-img-placeholder"></div>
                     <h3>The Amazing Digital Videogame</h3>
                     <div class="product-info">
-                        <div class="like-info">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <p>1M+</p>
-                        </div>
-                        <div class="buy-info">
-                            <p>$4.99</p>
-                        </div>
+                        <div class="like-info"><i class="fa-solid fa-thumbs-up"></i><p>1M+</p></div>
+                        <div class="buy-info"><p>$4.99</p></div>
                     </div>
+                    <button type="button" class="btn-add-cart">Añadir al carrito</button>
                 </div>
-                <div class="products-item">
+                <div class="products-item" data-id="game2" data-title="The Amazing Digital Videogame" data-price="4.99">
                     <div class="product-img-placeholder"></div>
                     <h3>The Amazing Digital Videogame</h3>
                     <div class="product-info">
-                        <div class="like-info">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <p>1M+</p>
-                        </div>
-                        <div class="buy-info">
-                            <p>$4.99</p>
-                        </div>
+                        <div class="like-info"><i class="fa-solid fa-thumbs-up"></i><p>1M+</p></div>
+                        <div class="buy-info"><p>$4.99</p></div>
                     </div>
+                    <button type="button" class="btn-add-cart">Añadir al carrito</button>
                 </div>
-                <div class="products-item">
+                <div class="products-item" data-id="game3" data-title="The Amazing Digital Videogame" data-price="4.99">
                     <div class="product-img-placeholder"></div>
                     <h3>The Amazing Digital Videogame</h3>
                     <div class="product-info">
-                        <div class="like-info">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <p>1M+</p>
-                        </div>
-                        <div class="buy-info">
-                            <p>$4.99</p>
-                        </div>
+                        <div class="like-info"><i class="fa-solid fa-thumbs-up"></i><p>1M+</p></div>
+                        <div class="buy-info"><p>$4.99</p></div>
                     </div>
+                    <button type="button" class="btn-add-cart">Añadir al carrito</button>
                 </div>
-                <div class="products-item">
+                <div class="products-item" data-id="game4" data-title="The Amazing Digital Videogame" data-price="4.99">
                     <div class="product-img-placeholder"></div>
                     <h3>The Amazing Digital Videogame</h3>
                     <div class="product-info">
-                        <div class="like-info">
-                            <i class="fa-solid fa-thumbs-up"></i>
-                            <p>1M+</p>
-                        </div>
-                        <div class="buy-info">
-                            <p>$4.99</p>
-                        </div>
+                        <div class="like-info"><i class="fa-solid fa-thumbs-up"></i><p>1M+</p></div>
+                        <div class="buy-info"><p>$4.99</p></div>
                     </div>
+                    <button type="button" class="btn-add-cart">Añadir al carrito</button>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="rights_sg">
-            <p>&copy; 2026 Storm Games. All rights reserved. All trademarks are property of their respective owners in Costa Rica and other countries.</p>  
+            <p class="sg_descrip">&copy; 2026 Storm Games. All rights reserved. All trademarks are property of their
+                respective owners in Costa Rica and other countries.</p>
         </div>
         <div class="rights2_sg">
-            <a href="#">Privacy Policy</a> | 
-            <a href="#">Legal</a> | 
-            <a href="#">Accessibility</a> | 
-            <a href="#">Storm Games Agreement</a> | 
-            <a href="#">Terms & Conditions</a> | 
-            <a href="#">Cookies</a>
+            <a href="/Contact/contact.html">Privacy Policy</a>
+            <a href="/Contact/contact.html">Legal</a>
+            <a href="/Contact/contact.html">Accessibility</a>
+            <a href="/Contact/contact.html">Storm Games Agreement</a>
+            <a href="/Contact/contact.html">Terms & Conditions</a>
+            <a href="/Contact/contact.html">Cookies</a>
         </div>
     </footer>
-    <script src="script.js"></script>
+    <script src="/cart.js" defer></script>
+    <script src="/script.js"></script>
 </body>
 </html>

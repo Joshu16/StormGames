@@ -286,6 +286,22 @@ main {
     margin: 0;
 }
 
+.products-item .btn-add-cart {
+    width: 100%;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 0 0 8px 8px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.products-item .btn-add-cart:hover {
+    background: #f19854;
+}
+
 /* FOOTER */
 
 footer {

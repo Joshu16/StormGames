@@ -1,0 +1,172 @@
+[
+  {
+    "id": "recomendados",
+    "title": "Recomendados",
+    "items": [
+      {
+        "id": "fifa-24",
+        "item-title": "FIFA 24",
+        "item-likes": "1.2M",
+        "item-price": 39.99,
+        "item-img": "/img/game1.jpg"
+      },
+      {
+        "id": "call-of-duty-mw3",
+        "item-title": "Call of Duty MW3",
+        "item-likes": "2.4M",
+        "item-price": 59.99,
+        "item-img": "/img/game2.jpg"
+      },
+      {
+        "id": "minecraft",
+        "item-title": "Minecraft",
+        "item-likes": "3.1M",
+        "item-price": 19.99,
+        "item-img": "/img/game3.jpg"
+      },
+      {
+        "id": "elden-ring",
+        "item-title": "Elden Ring",
+        "item-likes": "1.8M",
+        "item-price": 49.99,
+        "item-img": "/img/game4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "storm-originals",
+    "title": "Storm Originals",
+    "items": [
+      {
+        "id": "cyber-shadow",
+        "item-title": "Cyber Shadow",
+        "item-likes": "420K",
+        "item-price": 14.99,
+        "item-img": "/img/game6.jpg"
+      },
+      {
+        "id": "neon-drift",
+        "item-title": "Neon Drift",
+        "item-likes": "380K",
+        "item-price": 12.99,
+        "item-img": "/img/game7.jpg"
+      },
+      {
+        "id": "void-runner",
+        "item-title": "Void Runner",
+        "item-likes": "610K",
+        "item-price": 17.99,
+        "item-img": "/img/game8.jpg"
+      },
+      {
+        "id": "pixel-kingdom",
+        "item-title": "Pixel Kingdom",
+        "item-likes": "295K",
+        "item-price": 9.99,
+        "item-img": "/img/game9.jpg"
+      }
+    ]
+  },
+  {
+    "id": "action",
+    "title": "Action",
+    "items": [
+      {
+        "id": "doom-eternal",
+        "item-title": "Doom Eternal",
+        "item-likes": "2M",
+        "item-price": 29.99,
+        "item-img": "/img/game10.jpg"
+      },
+      {
+        "id": "spider-man-2",
+        "item-title": "Spider-Man 2",
+        "item-likes": "1.5M",
+        "item-price": 69.99,
+        "item-img": "/img/game11.jpg"
+      },
+      {
+        "id": "god-of-war",
+        "item-title": "God of War",
+        "item-likes": "2.3M",
+        "item-price": 39.99,
+        "item-img": "/img/game12.jpg"
+      },
+      {
+        "id": "halo-infinite",
+        "item-title": "Halo Infinite",
+        "item-likes": "1.1M",
+        "item-price": 34.99,
+        "item-img": "/img/game13.jpg"
+      }
+    ]
+  },
+  {
+    "id": "adventure",
+    "title": "Adventure",
+    "items": [
+      {
+        "id": "zelda-botw",
+        "item-title": "Zelda Breath of the Wild",
+        "item-likes": "2.8M",
+        "item-price": 59.99,
+        "item-img": "/img/game14.jpg"
+      },
+      {
+        "id": "uncharted-4",
+        "item-title": "Uncharted 4",
+        "item-likes": "1.6M",
+        "item-price": 24.99,
+        "item-img": "/img/game15.jpg"
+      },
+      {
+        "id": "tomb-raider",
+        "item-title": "Tomb Raider",
+        "item-likes": "980K",
+        "item-price": 19.99,
+        "item-img": "/img/game16.jpg"
+      },
+      {
+        "id": "horizon-zero-dawn",
+        "item-title": "Horizon Zero Dawn",
+        "item-likes": "1.9M",
+        "item-price": 29.99,
+        "item-img": "/img/game17.jpg"
+      }
+    ]
+  },
+  {
+    "id": "indie",
+    "title": "Indie",
+    "items": [
+      {
+        "id": "hollow-knight",
+        "item-title": "Hollow Knight",
+        "item-likes": "1.4M",
+        "item-price": 14.99,
+        "item-img": "/img/game18.jpg"
+      },
+      {
+        "id": "dead-cells",
+        "item-title": "Dead Cells",
+        "item-likes": "870K",
+        "item-price": 19.99,
+        "item-img": "/img/game19.jpg"
+      },
+      {
+        "id": "cuphead",
+        "item-title": "Cuphead",
+        "item-likes": "1.2M",
+        "item-price": 19.99,
+        "item-img": "/img/game20.jpg"
+      },
+      {
+        "id": "undertale",
+        "item-title": "Undertale",
+        "item-likes": "950K",
+        "item-price": 9.99,
+        "item-img": "/img/game21.jpg"
+      }
+    ]
+  }
+]
